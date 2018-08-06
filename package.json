@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/alarmxpay/bitcore-build-alarmx"
+    "url": "git://github.com/alarmxcore/bitcore-build-alarmx"
   },
   "keywords": [
     "bitcore"
@@ -37,9 +37,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alarmxpay/bitcore-build-alarmx/issues"
+    "url": "https://github.com/alarmxcore/bitcore-build-alarmx/issues"
   },
-  "homepage": "https://github.com/alarmxpay/bitcore-build-alarmx",
+  "homepage": "https://github.com/alarmxcore/bitcore-build-alarmx",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",

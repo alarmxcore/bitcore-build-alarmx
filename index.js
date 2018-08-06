@@ -129,9 +129,9 @@ function startGulp(name, opts) {
     var browserifyCommand;
 
     if (name !== 'lib') {
-      browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external alarmxcore-lib -o ' + fullname + '.js';
+      browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external bitcore-lib-alarmx -o ' + fullname + '.js';
     } else {
-      browserifyCommand = browserifyPath + ' --require ./index.js:alarmxcore-lib -o alarmxcore-lib.js';
+      browserifyCommand = browserifyPath + ' --require ./index.js:bitcore-lib-alarmx -o bitcore-lib-alarmx.js';
     }
 
     gulp.task('browser:uncompressed', shell.task([
